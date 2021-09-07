@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">VERSIONFINALLE</string>
+
+    <!-- title for error alerts. -->
+    <string name="error_alert_title" translatable="false">Uh-Oh!</string>
+    <!-- message to show for error alerts when location origin is malformed. -->
+    <string name="error_alert_message_invalid_origin" translatable="false">Unable to parse Location Origin. Expected format: "33, 128"</string>
+    <!-- message to show for error alerts when location bias or restriction is malformed. -->
+    <string name="error_alert_message_invalid_bounds" translatable="false">Unable to parse Location Bias or Location Restriction. Expected format: "33, 128"</string>
+    <!-- message to show for error alerts when a photo size field is malformed. -->
+    <string name="error_alert_message_invalid_photo_size" translatable="false">Unable to parse Photo size. Expected format is integers</string>
+
+    <string name="error_api_key" translatable="false">No API key defined in gradle.properties</string>
+
+    <!-- Text for raw results checkbox. When checked raw return values will be displayed. -->
+    <string name="display_raw_results" translatable="false">Display raw results?</string>
+
+
+    <!-- MAIN ACTIVITY -->
+
+    <!-- Button for launching current place test activity. -->
+    <string name="current_place_button" translatable="false">Current Place</string>
+
+
+    <!-- FIND CURRENT PLACE -->
+
+    <!-- Text for the find current place submit button. -->
+    <string name="find_current_place_button" translatable="false">Find Current Place</string>
+    <string name="search">Search</string>
+    <string name="search_a_place">Search a Place</string>
+
+</resources>
